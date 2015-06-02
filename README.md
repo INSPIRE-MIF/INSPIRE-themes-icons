@@ -2,10 +2,12 @@
 Vector source for the spatial data themes for INSPIRE
 
 [Data Specifications](http://inspire.ec.europa.eu/index.cfm/pageid/2/list/7)
-[Acceptance of the terms and conditions
-of the use of the EC Square Sans Pro Font Software
-by contractors of the European Commission](http://ec.europa.eu/dgs/communication/services/visual_identity/pdf/font-form_en.pdf)
 
+[Acceptance of the terms and conditions of the use of the EC Square Sans Pro Font Software by contractors of the European Commission](http://ec.europa.eu/dgs/communication/services/visual_identity/pdf/font-form_en.pdf)
+
+[Feature #25965 Catalogue home page / Icon by INSPIRE themes](https://taskman.eionet.europa.eu/issues/25965)
+
+[GeoNetwork Issue #1014](https://github.com/geonetwork/core-geonetwork/issues/1014)
 
 34 INSPIRE themes
 -----
