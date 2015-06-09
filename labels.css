@@ -219,7 +219,54 @@
 .ii-box.acr.rs .label:before {
   content: "RS";
 }
-
 .ii-box.full.rs-en .label:before {
   content: "Area management/restriction/\A regulation zones and reporting units";
+}
+
+/*========= SD =========*/
+.ii-box.acr.sd .label:before {
+  content: "SD";
+}
+.ii-box.full.sd-en .label:before {
+  content: "Species distribution";
+}
+
+/*========= SO =========*/
+.ii-box.acr.so .label:before {
+  content: "SO";
+}
+.ii-box.full.so-en .label:before {
+  content: "Soil";
+}
+
+/*========= SR =========*/
+.ii-box.acr.sr .label:before {
+  content: "SR";
+}
+.ii-box.full.sr-en .label:before {
+  content: "Sea regions";
+}
+
+/*========= SU =========*/
+.ii-box.acr.su .label:before {
+  content: "SU";
+}
+.ii-box.full.su-en .label:before {
+  content: "Statistical units";
+}
+
+/*========= TN =========*/
+.ii-box.acr.tn .label:before {
+  content: "TN";
+}
+.ii-box.full.tn-en .label:before {
+  content: "Transport networks";
+}
+
+/*========= US =========*/
+.ii-box.acr.us .label:before {
+  content: "US";
+}
+.ii-box.full.us-en .label:before {
+  content: "Utility and governmental services";
 }
