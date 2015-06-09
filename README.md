@@ -1,5 +1,11 @@
 # INSPIRE-themes-icons
 Vector source for the spatial data themes for INSPIRE
+```html
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="labels.css">
+</head>
+```
 
 [Demo site](http://geocat.github.io/INSPIRE-themes-icons/)
 
@@ -22,6 +28,12 @@ Vector source for the spatial data themes for INSPIRE
 
 ###[Topographic and Cadastral Reference Data](https://themes.jrc.ec.europa.eu/groups/profile/209/topographic-and-cadastral-reference-data)
 
+```html
+<div class="ii-box acr au">
+  <div class="icon"><span class="ii-au"></span></div>
+  <div class="label"></div>
+</div>
+```
 ![AU](https://themes.jrc.ec.europa.eu/imagen/4_IconAcronym_AU.png) [Administrative units](https://themes.jrc.ec.europa.eu/groups/profile/1841/administrative-units)
 
 ![AD](https://themes.jrc.ec.europa.eu/imagen/5_IconAcronym_AD.png) [Addresses](https://themes.jrc.ec.europa.eu/groups/profile/1849/addresses)
