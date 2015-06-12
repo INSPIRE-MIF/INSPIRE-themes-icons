@@ -40,6 +40,37 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+/*
+Experimenting multiline vertical middle
+http://stackoverflow.com/questions/9192389/css-single-or-multiple-line-vertical-align
+.cen {
+  border-radius: 6px;
+  width:9em;
+  min-height: 34px;
+  max-height: 34px;
+  margin-right: 5px;
+  border: 2px solid;
+}
+.cen p {
+  font-size: 10px;
+  display:inline-block;
+  vertical-align:middle;
+  margin:0 0 0 2px;
+  width:20em;
+  line-height: 1;
+}
+.cen::after {
+  display:inline-block;
+  vertical-align:middle;
+  line-height:34px;
+  width:0;
+  content:"\00A0";
+  overflow:hidden;
+}
+*/
+
+
 .@{iti-css-full-prefix}-box,
 .@{iti-css-prefix}-box {
   border-radius: 6px;
@@ -56,34 +87,34 @@
     width: 32px;
     height: 32px;
     background-color: white;
-    line-height: 1px;
     font-size: 32px;
-    float: left;
-    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
   }
 
   &.acr {
     width: 80px;
-    .label {
+    display: table;
+    p.label {
       font-size: 24px;
+      display: table-cell;
+      vertical-align: middle;
       margin-top: 6px;
-      line-height: 1em;
+      margin-bottom: 0px;
     }
   }
   &.full {
-    width: 220px;
-    .label {
+    width: 240px;
+    display: table;
+
+    p.label {
       font-size: 11px;
-      margin-top: 11px;
-      width: 182px;
-      line-height: 1em;
-      white-space: pre;
-    }
-    .label.two {
-      margin-top: 6px;
+      width: 202px;
+      display: table-cell;
+      vertical-align: middle;
     }
   }
-  .label, .label:before {
+  p.label, p.label:before {
     float: left;
     font-family: pf_square_sans_promedium;
     color: white;

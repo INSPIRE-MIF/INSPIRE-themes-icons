@@ -13,7 +13,7 @@ See LICENSE.
 
 ## Build
 
-To build the CSS, lessc is used. Install first node, then less:
+To build the CSS, lessc is used. Install first [node.js](https://nodejs.org/), then [less](http://lesscss.org/):
 
 ```
 npm install -g less
