@@ -1271,7 +1271,7 @@
   content: "Répartition de la population — démographie";
 }
 .iti-box.full.am-fr .label:before {
-  content: "Zones de gestion, de restriction ou de réglementation et unités de déclaration";
+  content: "Zones de gestion, de restriction ou\A de réglementation et unités de déclaration";
 }
 .iti-box.full.nz-fr .label:before {
   content: "Zones à risque naturel";

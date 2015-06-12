@@ -30,6 +30,30 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.cen {
+  border-radius: 6px;
+  width: 9em;
+  min-height: 34px;
+  max-height: 34px;
+  margin-right: 5px;
+  border: 2px solid;
+}
+.cen p {
+  font-size: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 0 0 2px;
+  width: 20em;
+  line-height: 1;
+}
+.cen::after {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 34px;
+  width: 0;
+  content: "\00A0";
+  overflow: hidden;
+}
 .inspire-themes-icons-box,
 .iti-box {
   border-radius: 6px;
@@ -48,41 +72,39 @@
   width: 32px;
   height: 32px;
   background-color: white;
-  line-height: 1px;
   font-size: 32px;
-  float: left;
-  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
 }
 .inspire-themes-icons-box.acr,
 .iti-box.acr {
   width: 80px;
+  display: table;
 }
-.inspire-themes-icons-box.acr .label,
-.iti-box.acr .label {
+.inspire-themes-icons-box.acr p.label,
+.iti-box.acr p.label {
   font-size: 24px;
+  display: table-cell;
+  vertical-align: middle;
   margin-top: 6px;
-  line-height: 1em;
+  margin-bottom: 0px;
 }
 .inspire-themes-icons-box.full,
 .iti-box.full {
-  width: 220px;
+  width: 240px;
+  display: table;
 }
-.inspire-themes-icons-box.full .label,
-.iti-box.full .label {
+.inspire-themes-icons-box.full p.label,
+.iti-box.full p.label {
   font-size: 11px;
-  margin-top: 11px;
-  width: 182px;
-  line-height: 1em;
-  white-space: pre;
+  width: 202px;
+  display: table-cell;
+  vertical-align: middle;
 }
-.inspire-themes-icons-box.full .label.two,
-.iti-box.full .label.two {
-  margin-top: 6px;
-}
-.inspire-themes-icons-box .label,
-.iti-box .label,
-.inspire-themes-icons-box .label:before,
-.iti-box .label:before {
+.inspire-themes-icons-box p.label,
+.iti-box p.label,
+.inspire-themes-icons-box p.label:before,
+.iti-box p.label:before {
   float: left;
   font-family: pf_square_sans_promedium;
   color: white;
@@ -753,7 +775,7 @@ An experiment of loop - need more work.
   content: "Protected sites";
 }
 .iti-box.full.rs-en .label:before {
-  content: "Area management/restriction/\A regulation zones and reporting units";
+  content: "Coordinate reference systems";
 }
 .iti-box.full.sd-en .label:before {
   content: "Species distribution";
