@@ -28,3 +28,12 @@ document.body.addEventListener("click", function(e) {
 	testText.addEventListener('change', updateTest, false);
 	updateSize();
 }());
+
+
+function switchToLang (select) {
+  var lang = select[select.selectedIndex].value;
+  $('.iti-box.full[class*="-"]').each(function (el) {
+    var css = $(this).attr('class');
+    $(this).attr('class', css.replace(/[a-z]{2}$/, lang));
+  });
+}
