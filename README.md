@@ -5,7 +5,7 @@ vector graphics on website.
 
 ## Demo
 
-Learn how to use the INSPIRE themes icon [on the demo website](http://geocat.github.io/INSPIRE-themes-icons/).
+Learn how to use the INSPIRE themes icon [on the demo website](http://docs.titellus.net/inspire-themes-icons/).
 
 ## License
 
