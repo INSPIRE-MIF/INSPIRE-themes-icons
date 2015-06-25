@@ -19,9 +19,10 @@ To build the CSS, lessc is used. Install first [node.js](https://nodejs.org/), t
 npm install -g less
 ```
 
-Build the CSS using 
+Build the CSS files using: 
 ```
 lessc less/inspire-themes.less > css/inspire-themes.css
+lessc less/inspire-themes-i18n.less > css/inspire-themes-i18n.css
 ```
 
 ## Reference documents & related work
