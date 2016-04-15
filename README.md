@@ -5,7 +5,7 @@ vector graphics on website.
 
 ## Demo
 
-Learn how to use the INSPIRE themes icon [on the demo website](http://geocat.github.io/INSPIRE-themes-icons/).
+Learn how to use the INSPIRE themes icon [on the demo website](http://docs.titellus.net/inspire-themes-icons/).
 
 ## License
 
@@ -19,9 +19,10 @@ To build the CSS, lessc is used. Install first [node.js](https://nodejs.org/), t
 npm install -g less
 ```
 
-Build the CSS using 
+Build the CSS files using: 
 ```
 lessc less/inspire-themes.less > css/inspire-themes.css
+lessc less/inspire-themes-i18n.less > css/inspire-themes-i18n.css
 ```
 
 ## Reference documents & related work
