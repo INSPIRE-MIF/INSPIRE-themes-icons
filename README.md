@@ -9,7 +9,7 @@ Learn how to use the INSPIRE themes icon [on the demo website](http://apps.titel
 
 ## License
 
-See LICENSE.
+See [LICENSE](LICENSE).
 
 ## Build
 
